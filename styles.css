@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url(src/background.jpg);
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -24,4 +24,27 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.mordecai{
+  position:absolute;
+  background-image: url(src/mordecaiPic.png);
+  background-repeat: no-repeat;
+  min-height: 150px;
+  min-width: 150px
+}
+
+.rigby{
+  position:absolute;
+  background-image: url(src/rigby.png);
+  background-repeat: no-repeat;
+  min-height: 150px;
+  min-width: 255px
+}
+
+.pops{
+  position:absolute;
+  background-image: url(src/pops.png);
+  background-repeat: no-repeat;
+  min-height: 150px;
+  min-width: 255px
 }
